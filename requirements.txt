@@ -1,4 +1,5 @@
-Django==4.2.7
-djangorestframework==3.14.0
-drf-yasg==1.21.7
-Faker==19.13.0
+Django>=4.2
+djangorestframework
+drf-yasg
+Faker
+django-cors-headers

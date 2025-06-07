@@ -8,7 +8,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title="Employee Analytics API",
         default_version='v1',
-        description="API for employee data analytics",
+        description="API for employee data and analytics",
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
@@ -16,7 +16,7 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('employees.urls')),
+    path('api/', include('employee.urls')),
     path('swagger/', schema_view.with_ui('swagger',
          cache_timeout=0), name='schema-swagger-ui'),
 ]
