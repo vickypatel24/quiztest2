@@ -2,7 +2,7 @@ from django.core.management.base import BaseCommand
 from employee.models import Department, Employee, Project, Attendance, Performance
 from faker import Faker
 import random
-from datetime import timedelta, date
+from datetime import date
 
 
 class Command(BaseCommand):

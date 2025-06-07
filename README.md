@@ -17,6 +17,7 @@ This project is a Django REST API for managing and analyzing synthetic employee 
 
 ```sh
 git clone https://github.com/vickypatel24/quiztest2.git
+cd quiztest2
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -24,7 +25,7 @@ git clone https://github.com/vickypatel24/quiztest2.git
 ```sh
 python -m venv venv
 # On Windows:
-venv\Scripts\activate
+venv\Scripts\activate.bat
 # On Mac/Linux:
 source venv/bin/activate
 ```
